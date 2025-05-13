@@ -1,0 +1,28 @@
+.concluida {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.buttom{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-left: 10px
+}
+
+.buttom:hover {
+    background-color: darkred;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
