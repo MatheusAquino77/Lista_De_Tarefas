@@ -26,3 +26,11 @@ li {
     padding: 5px;
     border-bottom: 1px solid #ccc;
 }
+
+select {
+    padding: 8px;
+    margin-left: 10px;
+}
+#filtercate option:first-child {
+  display: none; /* Oculta a primeira opção */
+}

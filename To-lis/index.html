@@ -9,8 +9,30 @@
 </head>
 <body>
     <label for="">Adicione uma tarefa</label>
-    <input type="text" id="tarefa">
-    <input type="button" value="Adicionar" onclick="adicionar()">
+    <input type="text" id="tarefa" placeholder="Nome da Tarefa">
+    <input type="date" name="Data-de-vencimento" id="data">
+    <select name="Categorias" id="categorias">
+        <option value="Pessoal">Pessoal</option>
+        <option value="Trabalho">Trabalho</option>
+        <option value="Estudo">Estudo</option>
+    </select>
+    <input type="submit" value="Adicionar" onclick="adicionar()">
+    
+    <select name="Filtrar" id="filtrar">
+        <option value="todos">Todos</option>
+        <option value="concluido">Concluidos</option>
+        <option value="pendente">Pendentes</option>
+    </select>
+
+     <select name="filterCate" id="filtercate">
+        <option value="">Filtrar por Categorias</option>
+        <option value="Todas">Todas</option>
+        <option value="Pessoal">Pessoal</option>
+        <option value="Trabalho">Trabalho</option>
+        <option value="Estudo">Estudo</option>
+     </select>
+
+
 
     <ul id="lista">
 
